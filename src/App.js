@@ -52,7 +52,7 @@ function App() {
           onChange={handleChange}
         />
         <button onClick={getMealData}>Get Daily Meal Plan</button>
-        <button onClick={getRecipesFromIngreds}>Get Recipes From Ingredients</button>
+        <button onClick={getRecipesFromIngreds}>Get Recipes From Given Ingredients</button>
 
       </section>
       {mealData && <MealList mealData={mealData} />}
