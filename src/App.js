@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import MealList from "./MealList"
 import RecipeData from "./RecipeData"
+const port = process.env.PORT || 8000;
 
 
 function App() {
