@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import MealList from "./MealList"
 import RecipeData from "./RecipeData"
-const port = process.env.PORT || 8000;
 
 
 function App() {
@@ -53,7 +52,7 @@ function App() {
           onChange={handleChange}
         />
         <button onClick={getMealData}>Get Daily Meal Plan</button>
-        <button onClick={getRecipesFromIngreds}>Get Recipes From Given Ingredients</button>
+       {/* <button onClick={getRecipesFromIngreds}>Get Recipes From Given Ingredients</button> */}
 
       </section>
       {mealData && <MealList mealData={mealData} />}
